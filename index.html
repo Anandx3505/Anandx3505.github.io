@@ -90,7 +90,7 @@
                     <div class="card" id="proj2">
                         <img src="/images/netflix-img.png" alt="liveweaver" height="151px"/>
                         <div class="project-info">
-                            <h3><a href="https://anandx3505.github.io/Netflix-Clone/">Netflix-Clone</a></h3>
+                            <h3><a href="javascript:void(0)" onclick="document.getElementById('warningModal').style.display='block'">Netflix-Clone</a></h3>
                             <p id="project-info">A real-time HTML, CSS, and JS code editor with live preview
                                 functionality.
                                 Build, edit, and visualize web projects instantly in your browser. Codepen.io is my
@@ -99,10 +99,22 @@
                             <button onclick="window.location.href='https://github.com/Anandx3505/Netflix-Clone/'">View <i
                                     class="fab fa-github"></i></button>
                             <button
-                                onclick="window.location.href='https://anandx3505.github.io/Netflix-Clone/'">View</button>
+                                onclick="document.getElementById('warningModal').style.display='block'">View</button>
+                        </div>
+                        <div id="warningModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close-btn" onclick="document.getElementById('warningModal').style.display='none'">&times;</span>
+                                    <h3>⚠️ Notice</h3>
+                                    <p>
+                                        The Netflix Clone project is currently unavailable due to a browser security flag.  
+                                        <br><br>
+                                        It's a frontend-only clone built for learning purposes and contains no real content or user tracking.
+                                        <br><br>
+                                        We're working to resolve this — thank you for understanding!
+                                    </p>
+                            </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </section>
