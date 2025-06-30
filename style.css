@@ -19,7 +19,7 @@ body {
   line-height: 1.6;
 }
 
-a {
+a,button {
   color: var(--accent);
   text-decoration: none;
 }
@@ -97,4 +97,39 @@ footer {
   height: 160px;
   object-fit: cover;
   border-radius: 8px;
+}
+.project-cards{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #1a1a1a;
+ border: 1px solid transparent;
+}
+.card:hover {
+  /* Slightly darker for hover state */
+  border-color:#f27b12; /* Brighter accent on hover */
+}
+.card img{
+  width: 298px;
+   margin: 0 auto;
+}
+
+.project-info{
+  padding: 10px;
+  font-size: 15px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.project-info button{
+  height: 32px;
+  width: 137px;
+  background-color: #00c2ff;
+  color: white;
+  border: none;
+  border-radius: 2px
 }
