@@ -111,12 +111,11 @@ footer {
  border: 1px solid transparent;
 }
 .card:hover {
-  /* Slightly darker for hover state */
-  border-color:#f27b12; /* Brighter accent on hover */
+  border-color:#f27b12;
 }
 .card img{
   width: 298px;
-  height: 151px;
+  height: 151px; 
   margin: 0 auto;
 }
 
