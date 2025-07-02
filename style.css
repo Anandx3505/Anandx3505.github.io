@@ -116,7 +116,8 @@ footer {
 }
 .card img{
   width: 298px;
-   margin: 0 auto;
+  height: 151px;
+  margin: 0 auto;
 }
 
 .project-info{
